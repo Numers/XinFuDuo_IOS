@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZXLoginErrorAlertViewController">
+            <connections>
+                <outlet property="backGroundView" destination="JJo-Mj-fkf" id="CHU-gE-wG0"/>
+                <outlet property="btnComfirm" destination="MkU-bQ-5jZ" id="jYr-nj-EVT"/>
+                <outlet property="lblDetails" destination="ERO-LM-dnw" id="cnC-IC-2eV"/>
+                <outlet property="lblTitle" destination="Rh2-ZY-kw8" id="I4q-iy-adn"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JJo-Mj-fkf">
+                    <rect key="frame" x="35" y="123" width="530" height="355"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="提示" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rh2-ZY-kw8">
+                            <rect key="frame" x="245" y="15" width="40" height="24"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="您的手机未开通服务，如请联系客服" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ERO-LM-dnw">
+                            <rect key="frame" x="148" y="147" width="234" height="41"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="234" id="QPe-T9-pku"/>
+                                <constraint firstAttribute="width" constant="200" id="uUc-cB-8TE"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="uUc-cB-8TE"/>
+                                </mask>
+                            </variation>
+                            <variation key="widthClass=compact" misplaced="YES">
+                                <rect key="frame" x="35" y="57" width="240" height="53"/>
+                            </variation>
+                            <variation key="heightClass=regular-widthClass=compact">
+                                <mask key="constraints">
+                                    <include reference="uUc-cB-8TE"/>
+                                </mask>
+                            </variation>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MkU-bQ-5jZ">
+                            <rect key="frame" x="180" y="300" width="170" height="40"/>
+                            <color key="backgroundColor" red="1" green="0.81346887700000003" blue="0.2154621434" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="RmE-tt-edL"/>
+                                <constraint firstAttribute="width" constant="170" id="cTO-qq-K51"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <state key="normal" title="确定">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="clickComfirmBtn:" destination="-1" eventType="touchUpInside" id="mWM-Hw-iQ4"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J4M-9c-3xt">
+                            <rect key="frame" x="490" y="14" width="25" height="25"/>
+                            <state key="normal" image="AlertViewCloseBtn_Login"/>
+                            <connections>
+                                <action selector="clickCloseBtn:" destination="-1" eventType="touchUpInside" id="whK-qe-3gB"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="Rh2-ZY-kw8" firstAttribute="top" secondItem="JJo-Mj-fkf" secondAttribute="top" constant="15" id="1G2-KU-hHn"/>
+                        <constraint firstAttribute="trailing" secondItem="J4M-9c-3xt" secondAttribute="trailing" constant="15" id="2se-XV-f2T"/>
+                        <constraint firstItem="ERO-LM-dnw" firstAttribute="centerY" secondItem="JJo-Mj-fkf" secondAttribute="centerY" constant="-10" id="3cZ-DC-ZX1"/>
+                        <constraint firstItem="J4M-9c-3xt" firstAttribute="top" secondItem="JJo-Mj-fkf" secondAttribute="top" constant="14" id="BSH-pn-mkJ"/>
+                        <constraint firstItem="MkU-bQ-5jZ" firstAttribute="centerX" secondItem="JJo-Mj-fkf" secondAttribute="centerX" id="R5x-HN-KyA"/>
+                        <constraint firstItem="Rh2-ZY-kw8" firstAttribute="centerX" secondItem="JJo-Mj-fkf" secondAttribute="centerX" id="RZd-mQ-fKa"/>
+                        <constraint firstItem="ERO-LM-dnw" firstAttribute="centerX" secondItem="JJo-Mj-fkf" secondAttribute="centerX" id="aG4-Kb-2m2"/>
+                        <constraint firstAttribute="bottom" secondItem="MkU-bQ-5jZ" secondAttribute="bottom" constant="15" id="giF-5i-dgf"/>
+                        <constraint firstAttribute="width" secondItem="JJo-Mj-fkf" secondAttribute="height" multiplier="254:170" id="p2E-tu-SaB"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.86991003787878785" green="0.86991003787878785" blue="0.86991003787878785" alpha="0.14999999999999999" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="JJo-Mj-fkf" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ESn-zE-cjI"/>
+                <constraint firstItem="JJo-Mj-fkf" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="ItJ-JN-Vvi"/>
+                <constraint firstItem="JJo-Mj-fkf" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="35" id="On1-Zc-YaF"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="AlertViewCloseBtn_Login" width="25" height="25"/>
+    </resources>
+</document>

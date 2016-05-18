@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0F5AB88559F6F9D08A19A54278B70D2682BD7299",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "ba505d94-06aa-47aa-9d61-e66a0a55745c++1057" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0F5AB88559F6F9D08A19A54278B70D2682BD7299" : 0,
+    "ba505d94-06aa-47aa-9d61-e66a0a55745c++1057" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9876CFBD-B639-43A9-B618-9FB83BAC8BF7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0F5AB88559F6F9D08A19A54278B70D2682BD7299" : "ZhaoXinBao\/",
+    "ba505d94-06aa-47aa-9d61-e66a0a55745c++1057" : "ZhaoXinBao\/ZhaoXinBao\/ZhaoXinBao\/helper\/UITextField+AKNumericFormatter\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ZhaoXinBao",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ZhaoXinBao\/ZhaoXinBao.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.renrenfenqi.com:baolicheng\/zhaoxinbao_ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0F5AB88559F6F9D08A19A54278B70D2682BD7299"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/192.168.1.221\/ios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "ba505d94-06aa-47aa-9d61-e66a0a55745c++1057"
+    }
+  ]
+}
